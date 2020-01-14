@@ -1,0 +1,20 @@
+{
+  "name": "create-create-react",
+  "version": "1.0.2",
+  "description": "creat a library for react for publish to npm",
+  "main": "index.js",
+  "scripts": {
+    "create": "coir i create-react-library"
+  },
+  "bin": {
+    "create-npm-react": "index.js"
+  },
+  "author": "channg",
+  "license": "ISC",
+  "dependencies": {
+    "coir": "^2.0.5",
+    "colors": "^1.4.0",
+    "cross-spawn": "^7.0.1",
+    "get_node_modules_path": "^2.0.4"
+  }
+}
